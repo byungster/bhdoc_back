@@ -1,0 +1,20 @@
+{
+  "name": "bhdoc",
+  "version": "0.0.1",
+  "description": "documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "byungster",
+    "email": "byungho222@gmail.com"
+  },
+  "repository": "/bhdoc",
+  "scripts": {
+    "dev": "vuepress dev src --temp .temp",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "watchpack": "^1.6.1"
+  }
+}
